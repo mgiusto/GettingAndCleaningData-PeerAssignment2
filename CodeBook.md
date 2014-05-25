@@ -20,87 +20,90 @@ For each record in the dataset it is provided:
 
 ## Selected variables 
 For the aim of the project only the variables related to means and std have been selected, these are:
-* tbodyaccmeanx: numeric - mean on the X component of the body acceleration
-* tbodyaccmeany: numeric - mean on the Y component of the body acceleration
-* tbodyaccmeanz: numeric - mean on the Z component of the body acceleration
-* tgravityaccmeanx: numeric - mean on the X component of the gravity acceleration
-* tgravityaccmeany: numeric - mean on the Y component of the gravity acceleration
-* tgravityaccmeanz: numeric - mean on the Z component of the gravity acceleration
-* tbodyaccjerkmeanx: numeric - mean on the X component of the jerk body acceleration
-* tbodyaccjerkmeany: numeric - mean on the Y component of the jerk body acceleration
-* tbodyaccjerkmeanz: numeric - mean on the Z component of the jerk body acceleration
-* tbodygyromeanx: numeric - mean on the X component of the body gyroscope
-* tbodygyromeany: numeric - mean on the Y component of the body gyroscope
-* tbodygyromeanz: numeric - mean on the Z component of the body gyroscope
-* tbodygyrojerkmeanx: numeric - mean on the X component of the jerk body gyroscope
-* tbodygyrojerkmeany: numeric - mean on the Y component of the jerk body gyroscope
-* tbodygyrojerkmeanz: numeric - mean on the Z component of the jerk body gyroscope
-* tbodyaccmagmean: numeric - mean of the body magnitude acceleration
-* tgravityaccmagmean: numeric - mean of the magnitude gravity
-* tbodyaccjerkmagmean: numeric - mean of the jerk magnitude acceleration
-* tbodygyromagmean: numeric - mean of the body magnitude gyroscope
-* tbodygyrojerkmagmean: numeric - mean of the body jerk magnitude gyroscope
-* fbodyaccmeanx: numeric - mean on the X component of the frequency of body acceleration
-* fbodyaccmeany: numeric - mean on the Y component of the frequency of body acceleration
-* fbodyaccmeanz: numeric - mean on the Z component of the frequency of body acceleration
-* fbodyaccjerkmeanx: numeric - mean on the X component of the frequency of body jerk acceleration
-* fbodyaccjerkmeany: numeric - mean on the Y component of the frequency of body jerk acceleration
-* fbodyaccjerkmeanz: numeric - mean on the Z component of the frequency of body jerk acceleration
-* fbodygyromeanx: numeric - mean on the X component of the frequency of body gyroscope
-* fbodygyromeany: numeric - mean on the Y component of the frequency of body gyroscope
-* fbodygyromeanz: numeric - mean on the Z component of the frequency of body gyroscope
-* fbodyaccmagmean: numeric - mean of the frequency of body magnitude acceleration
-* fbodyaccjerkmagmean: numeric - mean of the jerk magnitude acceleration
-* fbodygyromagmean: numeric - mean of the frequency of body magnitude gyroscope
-* fbodygyrojerkmagmean: numeric - mean of the frequency of body jerk magnitude gyroscope
-* tbodyaccstdx: numeric - std on the X component of the body acceleration
-* tbodyaccstdy: numeric - std on the Y component of the body acceleration
-* tbodyaccstdz: numeric - std on the Z component of the body acceleration
-* tgravityaccstdx: numeric - std on the X component of the gravity acceleration
-* tgravityaccstdy: numeric - std on the Y component of the gravity acceleration
-* tgravityaccstdz: numeric - std on the Z component of the gravity acceleration
-* tbodyaccjerkstdx: numeric - std on the X component of the jerk body acceleration
-* tbodyaccjerkstdy: numeric - std on the Y component of the jerk body acceleration
-* tbodyaccjerkstdz: numeric - std on the Z component of the jerk body acceleration
-* tbodygyrostdx: numeric - std on the X component of the body gyroscope
-* tbodygyrostdy: numeric - std on the Y component of the body gyroscope
-* tbodygyrostdz: numeric - std on the Z component of the body gyroscope
-* tbodygyrojerkstdx: numeric - std on the X component of the jerk body gyroscope
-* tbodygyrojerkstdy: numeric - std on the Y component of the jerk body gyroscope
-* tbodygyrojerkstdz: numeric - std on the Z component of the jerk body gyroscope
-* tbodyaccmagstd: numeric - std of the body magnitude acceleration
-* tgravityaccmagstd: numeric - std of the magnitude gravity 
-* tbodyaccjerkmagstd: numeric - std of the jerk magnitude acceleration
-* tbodygyromagstd: numeric - std of the body magnitude gyroscope
-* tbodygyrojerkmagstd: numeric - std of the body jerk magnitude gyroscope
-* fbodyaccstdx: numeric - std on the X component of the frequency of body acceleration
-* fbodyaccstdy: numeric - std on the Y component of the frequency of body acceleration
-* fbodyaccstdz: numeric - std on the Z component of the frequency of body acceleration
-* fbodyaccjerkstdx: numeric - std on the X component of the frequency of body jerk acceleration
-* fbodyaccjerkstdy: numeric - std on the Y component of the frequency of body jerk acceleration
-* fbodyaccjerkstdz: numeric - std on the Z component of the frequency of body jerk acceleration
-* fbodygyrostdx: numeric - std on the X component of the frequency of body gyroscope
-* fbodygyrostdy: numeric - std on the Y component of the frequency of body gyroscope
-* fbodygyrostdz: numeric - std on the Z component of the frequency of body gyroscope
-* fbodyaccmagstd: numeric - std of the frequency of body magnitude acceleration
-* fbodyaccjerkmagstd: numeric - std of the jerk magnitude acceleration
-* fbodygyromagstd: numeric - std of the frequency of body magnitude gyroscope
-* fbodygyrojerkmagstd: numeric - std of the frequency of body jerk magnitude gyroscope
-* fbodyaccmeanfreqx: numeric - mean frequence on the X component of the frequency of body acceleration
-* fbodyaccmeanfreqy: numeric - mean frequence on the Y component of the frequency of body acceleration
-* fbodyaccmeanfreqz: numeric - mean frequence on the Z component of the frequency of body acceleration
-* fbodyaccjerkmeanfreqx: numeric - mean frequence on the X component of the frequence of jerk body acceleration
-* fbodyaccjerkmeanfreqy: numeric - mean frequence on the Y component of the frequence of jerk body acceleration
-* fbodyaccjerkmeanfreqz: numeric - mean frequence on the Z component of the frequence of jerk body acceleration
-* fbodygyromeanfreqx: numeric - mean frequence on the X component of the frequency of body gyroscope
-* fbodygyromeanfreqy: numeric - mean frequence on the Y component of the frequency of body gyroscope
-* fbodygyromeanfreqz: numeric - mean frequence on the Z component of the frequency of body gyroscope
-* fbodyaccmagmeanfreq: numeric - mean frequence of the frequency of body magnitude acceleration
-* fbodyaccjerkmagmeanfreq: numeric - mean frequence of the jerk magnitude acceleration
-* fbodygyromagmeanfreq: numeric - mean frequence of the frequency of body magnitude gyroscope
-* fbodygyrojerkmagmeanfreq: numeric - mean frequence of the frequency of body jerk magnitude gyroscope
-* activitylabel: factor  (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) - performed activity
-* subject: factor (1..30) - subject ID number
+
+VARIABLE NAME | TYPE | DESCRIPTION
+---------- | --------- | -------------
+tbodyaccmeanx | numeric | mean on the X component of the body acceleration
+tbodyaccmeany | numeric | mean on the Y component of the body acceleration
+tbodyaccmeanz | numeric | mean on the Z component of the body acceleration
+tgravityaccmeanx | numeric | mean on the X component of the gravity acceleration
+tgravityaccmeany | numeric | mean on the Y component of the gravity acceleration
+tgravityaccmeanz | numeric | mean on the Z component of the gravity acceleration
+tbodyaccjerkmeanx | numeric | mean on the X component of the jerk body acceleration
+tbodyaccjerkmeany | numeric | mean on the Y component of the jerk body acceleration
+tbodyaccjerkmeanz | numeric | mean on the Z component of the jerk body acceleration
+tbodygyromeanx | numeric | mean on the X component of the body gyroscope
+tbodygyromeany | numeric | mean on the Y component of the body gyroscope
+tbodygyromeanz | numeric | mean on the Z component of the body gyroscope
+tbodygyrojerkmeanx | numeric | mean on the X component of the jerk body gyroscope
+tbodygyrojerkmeany | numeric | mean on the Y component of the jerk body gyroscope
+tbodygyrojerkmeanz | numeric | mean on the Z component of the jerk body gyroscope
+tbodyaccmagmean | numeric | mean of the body magnitude acceleration
+tgravityaccmagmean | numeric | mean of the magnitude gravity
+tbodyaccjerkmagmean | numeric | mean of the jerk magnitude acceleration
+tbodygyromagmean | numeric | mean of the body magnitude gyroscope
+tbodygyrojerkmagmean | numeric | mean of the body jerk magnitude gyroscope
+fbodyaccmeanx | numeric | mean on the X component of the frequency of body acceleration
+fbodyaccmeany | numeric | mean on the Y component of the frequency of body acceleration
+fbodyaccmeanz | numeric | mean on the Z component of the frequency of body acceleration
+fbodyaccjerkmeanx | numeric | mean on the X component of the frequency of body jerk acceleration
+fbodyaccjerkmeany | numeric | mean on the Y component of the frequency of body jerk acceleration
+fbodyaccjerkmeanz | numeric | mean on the Z component of the frequency of body jerk acceleration
+fbodygyromeanx | numeric | mean on the X component of the frequency of body gyroscope
+fbodygyromeany | numeric | mean on the Y component of the frequency of body gyroscope
+fbodygyromeanz | numeric | mean on the Z component of the frequency of body gyroscope
+fbodyaccmagmean | numeric | mean of the frequency of body magnitude acceleration
+fbodyaccjerkmagmean | numeric | mean of the jerk magnitude acceleration
+fbodygyromagmean | numeric | mean of the frequency of body magnitude gyroscope
+fbodygyrojerkmagmean | numeric | mean of the frequency of body jerk magnitude gyroscope
+tbodyaccstdx | numeric | std on the X component of the body acceleration
+tbodyaccstdy | numeric | std on the Y component of the body acceleration
+tbodyaccstdz | numeric | std on the Z component of the body acceleration
+tgravityaccstdx | numeric | std on the X component of the gravity acceleration
+tgravityaccstdy | numeric | std on the Y component of the gravity acceleration
+tgravityaccstdz | numeric | std on the Z component of the gravity acceleration
+tbodyaccjerkstdx | numeric | std on the X component of the jerk body acceleration
+tbodyaccjerkstdy | numeric | std on the Y component of the jerk body acceleration
+tbodyaccjerkstdz | numeric | std on the Z component of the jerk body acceleration
+tbodygyrostdx | numeric | std on the X component of the body gyroscope
+tbodygyrostdy | numeric | std on the Y component of the body gyroscope
+tbodygyrostdz | numeric | std on the Z component of the body gyroscope
+tbodygyrojerkstdx | numeric | std on the X component of the jerk body gyroscope
+tbodygyrojerkstdy | numeric | std on the Y component of the jerk body gyroscope
+tbodygyrojerkstdz | numeric | std on the Z component of the jerk body gyroscope
+tbodyaccmagstd | numeric | std of the body magnitude acceleration
+tgravityaccmagstd | numeric | std of the magnitude gravity 
+tbodyaccjerkmagstd | numeric | std of the jerk magnitude acceleration
+tbodygyromagstd | numeric | std of the body magnitude gyroscope
+tbodygyrojerkmagstd | numeric | std of the body jerk magnitude gyroscope
+fbodyaccstdx | numeric | std on the X component of the frequency of body acceleration
+fbodyaccstdy | numeric | std on the Y component of the frequency of body acceleration
+fbodyaccstdz | numeric | std on the Z component of the frequency of body acceleration
+fbodyaccjerkstdx | numeric | std on the X component of the frequency of body jerk acceleration
+fbodyaccjerkstdy | numeric | std on the Y component of the frequency of body jerk acceleration
+fbodyaccjerkstdz | numeric | std on the Z component of the frequency of body jerk acceleration
+fbodygyrostdx | numeric | std on the X component of the frequency of body gyroscope
+fbodygyrostdy | numeric | std on the Y component of the frequency of body gyroscope
+fbodygyrostdz | numeric | std on the Z component of the frequency of body gyroscope
+fbodyaccmagstd | numeric | std of the frequency of body magnitude acceleration
+fbodyaccjerkmagstd | numeric | std of the jerk magnitude acceleration
+fbodygyromagstd | numeric | std of the frequency of body magnitude gyroscope
+fbodygyrojerkmagstd | numeric | std of the frequency of body jerk magnitude gyroscope
+fbodyaccmeanfreqx | numeric | mean frequence on the X component of the frequency of body acceleration
+fbodyaccmeanfreqy | numeric | mean frequence on the Y component of the frequency of body acceleration
+fbodyaccmeanfreqz | numeric | mean frequence on the Z component of the frequency of body acceleration
+fbodyaccjerkmeanfreqx | numeric | mean frequence on the X component of the frequence of jerk body acceleration
+fbodyaccjerkmeanfreqy | numeric | mean frequence on the Y component of the frequence of jerk body acceleration
+fbodyaccjerkmeanfreqz | numeric | mean frequence on the Z component of the frequence of jerk body acceleration
+fbodygyromeanfreqx | numeric | mean frequence on the X component of the frequency of body gyroscope
+fbodygyromeanfreqy | numeric | mean frequence on the Y component of the frequency of body gyroscope
+fbodygyromeanfreqz | numeric | mean frequence on the Z component of the frequency of body gyroscope
+fbodyaccmagmeanfreq | numeric | mean frequence of the frequency of body magnitude acceleration
+fbodyaccjerkmagmeanfreq | numeric | mean frequence of the jerk magnitude acceleration
+fbodygyromagmeanfreq | numeric | mean frequence of the frequency of body magnitude gyroscope
+fbodygyrojerkmagmeanfreq | numeric | mean frequence of the frequency of body jerk magnitude gyroscope
+activitylabel | factor  (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) | performed activity
+subject | factor (1..30) | subject ID number
 
 The last two variables represent the performed activity done by the subject when data has been collected and the subject id.
 

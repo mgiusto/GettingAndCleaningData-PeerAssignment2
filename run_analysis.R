@@ -54,5 +54,4 @@ tidy = aggregate(.~subject+activitylabel, data5, mean)
 tidy = tidy[order(tidy$subject, tidy$activitylabel),]
 
 #write the tidy dataset to a file
-write.csv(tidy, "tidy.csv",row.names=FALSE)
-
+write.csv(tidy, "tidy.txt",row.names=FALSE)

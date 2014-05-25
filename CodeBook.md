@@ -1,5 +1,5 @@
 ## Data
-The dataset comes from an experiment on "Human Activity Recognition Using Smartphones Data Set". It has been collected by the "Smartlab - Non Linear Complex Systems Laboratory" of the "DITEN - Università degli Studi di Genova, Genoa I-16145, Italy" (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+The dataset comes from an experiment on "Human Activity Recognition Using Smartphones Data Set". It has been collected by the "Smartlab - Non Linear Complex Systems Laboratory" of the "DITEN - Universita' degli Studi di Genova, Genoa I-16145, Italy" (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
 ## Data Set Information 
 Description taken from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
@@ -109,6 +109,7 @@ The last two variables represent the performed activity done by the subject when
 
 ## Transformations
 The transformation present in the file run_analysis.R code are:
+
 1. read train and test datasets and merge them: read the files "UCI HAR Dataset\train\X_train.txt" and "UCI HAR Dataset\test\X_test.txt" and create the dataset with all the observations
 2. read the names of the variables: read the file "UCI HAR Dataset\features.txt" containing the name of the variables
 3. select only the variable related to the mean or std of the available measuremments: filter the variable selecting only the one that contains "mean()" "meanFreq()" and "std()"
